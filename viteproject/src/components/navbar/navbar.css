@@ -1,0 +1,16 @@
+.menu {
+    border-color: blue;
+    border-radius: 20px;
+}
+ul{
+text-align: center;
+}
+li{
+    font-size: 30px;
+    display: inline-block;
+    flex-direction: row;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+}
