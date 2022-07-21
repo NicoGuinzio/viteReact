@@ -1,17 +1,28 @@
 import React from 'react'
 
+
+// TENGO QUE PONER EL href a la etiqueta a de navbar
 const navbar = () => {
     return (
         <>
-            <h1>NavBar</h1>
-            <nav>
-                <ul className='menu'>
-                    <button ><a  className="homeIcon">Home</a></button>
-                    <button ><a >News</a></button>
-                    <button ><a >About us</a></button>
-                    <button ><a >Services</a></button>
-                    <button ><a >Contact us</a></button>
-                </ul>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" id="link de inicio" href="#">Inicio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-ico"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active " aria-current="page">Categorias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link">Ofertas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </>
     )

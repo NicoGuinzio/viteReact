@@ -14,3 +14,25 @@ li{
 h1{
     text-align: center;
 }
+
+/*Header*/
+header {
+    padding: 0;
+    text-align: center;
+    background-color: transparent; }
+    header .fondoEncabezado {
+      background-color: #ffffff;
+      display: block; }
+      header .fondoEncabezado .fotoEncabezado {
+        width: 30%;
+        margin: -10%; }
+  
+  /*NAV*/
+  .bg-light {
+    background-color: #f46640a3 !important; }
+  
+  .navbar-toggler {
+    background-color: #046ccc; }
+  
+  .navbar-collapse {
+    justify-content: space-evenly; }
