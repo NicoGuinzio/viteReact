@@ -29,10 +29,19 @@ header {
   
   /*NAV*/
   .bg-light {
-    background-color: #f46640a3 !important; }
+    background-color: #ffe867 !important; }
   
   .navbar-toggler {
     background-color: #046ccc; }
   
   .navbar-collapse {
     justify-content: space-evenly; }
+
+  .imgCarrito {
+    height: 100px;
+    width: 100px;
+  }
+
+  .navbar-brand {
+    font-size: 2.25rem;
+  }

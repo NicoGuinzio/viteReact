@@ -1,26 +1,28 @@
-import React from 'react'
+import React from 'react'   
 
-
-// TENGO QUE PONER EL href a la etiqueta a de navbar
-const navbar = () => {
+const Navbar = (props) => {
+    console.log(props)
     return (
         <>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" id="link de inicio" href="#">Inicio</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-ico"></span>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                    <a className="navbar-brand" id="link de inicio" href="#" >Inicio</a>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                        <span className="navbar-toggler-ico"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active " aria-current="page">Categorias</a>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <a className="nav-link active " aria-current="page">Categorias</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Ofertas</a>
+                            <li className="nav-item">
+                                <a className="nav-link">Ofertas</a>
                             </li>
                         </ul>
+                    </div>
+                    <div>
+                    <img className="imgCarrito" src="../../../img/carritoimagen.png" alt="imagen Carrito"/>
                     </div>
                 </div>
             </nav>
@@ -28,4 +30,4 @@ const navbar = () => {
     )
 }
 
-export default navbar
+export default Navbar
