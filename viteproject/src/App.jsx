@@ -7,12 +7,12 @@ import Novedades from './components/novedades/Novedades'
 
 function App() {
   // const [count, setCount] = useState(0)
-  let titulo ="Meli"
+  let subtitulo ="Componentes"
   
   return (
     
   <>
-  <Navbar titulo="nombreProyecto"/>
+  <Navbar titulo="nombreProyecto" subtitulo={subtitulo}/>
   <h1>Hola</h1>
   <Novedades/>
   </>

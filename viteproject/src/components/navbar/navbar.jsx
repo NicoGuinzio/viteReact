@@ -1,9 +1,12 @@
 import React from 'react'   
 
-const Navbar = (props) => {
-    console.log(props)
+const Navbar = ({titulo,subtitulo}) => {
+    // console.log(props)
+    // let titulo = props.titulo
     return (
         <>
+        <div>{titulo}</div>
+        <div>{subtitulo}</div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand" id="link de inicio" href="#" >Inicio</a>
@@ -26,6 +29,7 @@ const Navbar = (props) => {
                     </div>
                 </div>
             </nav>
+
         </>
     )
 }
