@@ -1,15 +1,14 @@
-import React from 'react'   
+import React from 'react'
+import carritoimagen from '../../../img/carritoimagen.png'
 
-const Navbar = ({titulo,subtitulo}) => {
+const Navbar = ({ titulo, subtitulo }) => {
     // console.log(props)
     // let titulo = props.titulo
     return (
         <>
-        <div>{titulo}</div>
-        <div>{subtitulo}</div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand" id="link de inicio" href="#" >Inicio</a>
+                    <a className="navbar-brand" id="link de inicio" href="#">Inicio</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
                         <span className="navbar-toggler-ico"></span>
@@ -25,10 +24,12 @@ const Navbar = ({titulo,subtitulo}) => {
                         </ul>
                     </div>
                     <div>
-                    <img className="imgCarrito" src="../../../img/carritoimagen.png" alt="imagen Carrito"/>
+                        <img className="imgCarrito" src={carritoimagen} alt="imagen Carrito" />
                     </div>
                 </div>
             </nav>
+            <div>{titulo}</div>
+            <div>{subtitulo}</div>
 
         </>
     )

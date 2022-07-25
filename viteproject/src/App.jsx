@@ -9,12 +9,13 @@ function App() {
   // const [count, setCount] = useState(0)
   let subtitulo ="Componentes"
   
-  return (
+  return (  //dentro de los tag de este return se puede escribir HTML
     
   <>
   <Navbar titulo="nombreProyecto" subtitulo={subtitulo}/>
   <h1>Hola</h1>
   <Novedades/>
+  
   </>
   
     )
