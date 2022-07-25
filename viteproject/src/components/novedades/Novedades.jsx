@@ -8,7 +8,6 @@ const Novedades = () => {
     <Playlist titulo="playlist2" descripcion="Esta es una playlist del 2023"/>
     <Playlist titulo="playlist3" descripcion="Esta es una playlist del 2024"/>
     <Playlist titulo="playlist4" descripcion="Esta es una playlist del 2025"/>
-    
     </>
     )
 }

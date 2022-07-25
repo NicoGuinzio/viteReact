@@ -1,9 +1,11 @@
 const Titulo = (titulo) => {
-  return (
-    <>
-    <h2>{titulo}</h2>
-    </>
-  )
+    return (
+
+        <>
+            <h3>{titulo}</h3>
+        </>
+
+    )
 }
 
 export default Titulo
